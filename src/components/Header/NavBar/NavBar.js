@@ -1,5 +1,6 @@
 import { useState } from "react"
 import { ReactComponent as HeartIcon } from "../../../assets/icons/heart-icon.svg"
+import { ReactComponent as MagnifyingGlassIcon } from "../../../assets/icons/magnifying-glass-icon.svg"
 
 const NavBar = () => {
     const [search, setSearch] = useState("")
@@ -17,7 +18,9 @@ const NavBar = () => {
             </nav>
             <div>
                 <div>
-                    <span>Magnifying glass</span>
+                    <span>
+                        <MagnifyingGlassIcon />
+                    </span>
                     <input type="search" placeholder="Search" />
                 </div>
                 <a href="/favorites">

@@ -25,6 +25,7 @@ const NavBar = () => {
                 </div>
                 <a href="/favorites">
                     <HeartIcon />
+                    hi
                 </a>
             </div>
         </div>

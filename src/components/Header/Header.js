@@ -1,9 +1,11 @@
 import NavBar from "./NavBar/NavBar"
+import Topbar from "./Topbar/Topbar"
 
 const Header = () => {
     return (
         <header>
-            <NavBar />
+            
+            <Topbar/>
         </header>
     )
 }

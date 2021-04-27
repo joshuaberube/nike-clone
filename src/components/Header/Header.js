@@ -4,8 +4,8 @@ import Topbar from "./Topbar/Topbar"
 const Header = () => {
     return (
         <header>
-            
-            <Topbar/>
+            <Topbar />
+            <NavBar />
         </header>
     )
 }

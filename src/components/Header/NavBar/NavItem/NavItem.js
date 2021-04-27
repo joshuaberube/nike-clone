@@ -6,7 +6,7 @@ const NavItem = ({to, children, dropdownData}) => {
     const [isDropdown, setIsDropdown] = useState(false)
 
     return (
-        <div onMouseEnter={() => setIsDropdown(true)} onMouseLeave={() => setIsDropdown(false)}>
+        <li onMouseEnter={() => setIsDropdown(true)} onMouseLeave={() => setIsDropdown(false)}>
             <NavLink to={to}>
                 {children}
             </NavLink>
@@ -18,7 +18,7 @@ const NavItem = ({to, children, dropdownData}) => {
                     ))}
                 </div>
             )}
-        </div>
+        </li>
     )
 }
 
